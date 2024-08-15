@@ -11,31 +11,36 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg shadow-sm">
+  <nav class="navbar navbar-expand-lg shadow-sm px-3">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">NAZMUL</a>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navCollapse">
+      <div class="collapse navbar-collapse justify-content-between" id="navCollapse">
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="#">Home</a>
           <a class="nav-item nav-link" href="#">Profile</a>
 
           <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Message</a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu mb-2 mb-lg-0">
               <a class="dropdown-item" href="#">Sent</a>
               <a class="dropdown-item" href="#">Inbox</a>
               <a class="dropdown-item" href="#">Drafts</a>
             </div>
           </div>
-
         </div>
 
+        <form class="d-flex">
+          <input class="form-control me-2" placeholder="Search">
+          <button class="btn btn-outline-success">Search</button>
+        </form>
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Login</a>
+        </div>
       </div>
-
     </div>
   </nav>
 
