@@ -10,8 +10,8 @@
 </head>
 
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg shadow-sm px-3">
+  <!-- navbar & dropdown -->
+  <nav class="navbar navbar-expand-lg shadow-sm px-3 mb-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">NAZMUL</a>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navCollapse">
@@ -47,7 +47,7 @@
 
 
   <!-- form -->
-  <div class="container">
+  <div class="container mb-4">
     <div class="row">
       <div class="col-8">
         <form>
@@ -74,12 +74,48 @@
 
           <button class="btn btn-primary">Submit</button>
 
-
         </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <h2 class="text-center text-info">Progress</h2>
+
+        <div class="progress mb-2" style="height: 25px;">
+          <div class="progress-bar bg-success" style="width: 80%;">
+            HTML 80%
+          </div>
+        </div>
+
+        <div class="progress mb-2" style="height: 25px;">
+          <div class="progress-bar bg-primary" style="width: 60%;">
+            CSS 60%
+          </div>
+        </div>
+
+        <div class="progress mb-2" style="height: 25px;">
+          <div class="progress-bar bg-warning" style="width: 40%;">
+            BOOTSTRAP 40%
+          </div>
+        </div>
+
+        <div class="progress mb-2" style="height: 25px;">
+          <div class="progress-bar bg-danger" style="width: 10%;">
+            JS 10
+          </div>
+        </div>
+
 
       </div>
     </div>
   </div>
+
+
+
 
   <script src="./js/bootstrap.bundle.js"></script>
 </body>
